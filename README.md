@@ -4,11 +4,11 @@ Protótipo em console que modela as zonas restritas de uma instalação nuclear,
 
 ## Como executar
 
-Requer Java 21 e Maven.
+Requer Java 17 ou superior e Maven.
 
 ```
 mvn test                  # 33 testes unitários
-mvn compile exec:java -Dexec.mainClass=br.amazul.sentinela.Main
+mvn compile exec:java
 ```
 
 Ou rode `Main` direto na IDE. Se o terminal do Windows mostrar o "µ" quebrado, use `chcp 65001` antes.
